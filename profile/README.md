@@ -1,6 +1,7 @@
 # AURA
 
-<img width="1491" alt="AURA 프로젝트 소개 이미지" src="user-APP/assets/aura-current-contact-sheet.png" />
+<img width="1491" height="1055" alt="image" src="https://github.com/user-attachments/assets/1658567b-ff8b-45f9-8f97-51a32e348482" />
+
 
 > Gmail과 Google Drive에 쌓인 유령 데이터를 찾아, 사용자가 직접 확인하고 안전하게 정리할 수 있도록 돕는 서비스
 > 
@@ -127,34 +128,14 @@ Gmail / Drive 휴지통 이동
 
 ## 05. Architecture
 
-<img width="3092" height="1870" alt="제목 없음" src="https://github.com/user-attachments/assets/09e29373-ef02-484a-a70c-fe2002553729" />
+<img width="1535" height="1024" alt="제목 없음" src="https://github.com/user-attachments/assets/09e29373-ef02-484a-a70c-fe2002553729" />
 
 
 ---
 
 ## 06. ERD
 
-```mermaid
-erDiagram
-    users ||--o| oauth_tokens : "토큰"
-    users ||--o| user_consents : "동의"
-    users ||--o{ google_permissions : "권한"
-    users ||--o| scan_settings : "스캔 조건"
-    users ||--o{ scan_jobs : "스캔"
-    scan_jobs ||--o{ scanned_items : "수집 항목"
-    scan_jobs ||--o{ analysis_candidates : "분석 후보"
-    scanned_items ||--o| analysis_candidates : "AI 분석"
-    users ||--o{ cleanup_jobs : "정리 작업"
-    cleanup_jobs ||--o{ cleanup_job_items : "정리 대상"
-    cleanup_jobs ||--o| cleanup_histories : "정리 이력"
-    cleanup_histories ||--o| carbon_saving_histories : "탄소 절감"
-    users ||--o{ monthly_user_statistics : "월별 통계"
-    users ||--o| notification_settings : "알림 설정"
-    users ||--o{ fcm_tokens : "FCM 토큰"
-    users ||--o{ notifications : "알림"
-    announcements ||--o{ announcement_reads : "공지 읽음"
-    users ||--o{ announcement_reads : "공지 확인"
-```
+<img width="1700" height="1082" alt="ERD" src="" />
 
 ---
 
