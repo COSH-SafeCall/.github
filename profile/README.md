@@ -135,7 +135,9 @@ Gmail / Drive 휴지통 이동
 
 ## 06. ERD
 
-<img width="1700" height="1082" alt="ERD" src="" />
+<img width="4010" height="2482" alt="Copy of Copy of aura" src="https://github.com/user-attachments/assets/b717baf0-f158-4cc9-af09-0abf4a83cfbd" />
+
+
 
 ---
 
