@@ -203,9 +203,9 @@ Docker Compose, Nginx, Let's Encrypt, AWS Secrets Manager와 배포 스크립트
 | 저장소 | 설명 | 현재 상태 |
 | --- | --- | --- |
 | [user-App](https://github.com/COSH-SafeCall/user-App) | React Native 기반 Android 사용자 앱 | 개발 준비 |
-| [user-web](https://github.com/COSH-SafeCall/user-web) | React와 TypeScript 기반 공개 웹 MVP | 개발 중 |
-| [server](https://github.com/COSH-SafeCall/server) | Java 21과 Spring Boot 기반 API 서버 | 개발 중 |
-| [SafeCall_infra](https://github.com/COSH-SafeCall/SafeCall_infra) | AWS EC2, Docker Compose, Nginx, HTTPS 및 배포 자동화 | 개발 중 |
+| [user-web](https://github.com/COSH-SafeCall/user-web) | React와 TypeScript 기반 공개 웹 MVP | 개발 완료 |
+| [server](https://github.com/COSH-SafeCall/server) | Java 21과 Spring Boot 기반 API 서버 | 개발 완료 / 서비스 종료|
+| [SafeCall_infra](https://github.com/COSH-SafeCall/SafeCall_infra) | AWS EC2, Docker Compose, Nginx, HTTPS 및 배포 자동화 | 개발 완료 |
 
 ---
 
